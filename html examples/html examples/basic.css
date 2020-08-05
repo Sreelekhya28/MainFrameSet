@@ -1,0 +1,47 @@
+body{
+    background-color:lightblue;
+}
+h1{
+	color:navy;
+}
+h2{
+	color:orange;
+}
+div{
+	color:brown;
+	font-size:25px;
+    font-family:Zapf Chancery, cursive;
+}
+img{
+	height:30%;
+	width:25%;
+}
+p.ex{
+	text-align:center;
+	color:green;
+	font-size:30px;
+}
+.testclass{
+	color: red;
+	font-size:300%;
+}
+table{
+	border:1px solid red;
+	width: 70%;
+}
+td{
+	text-align:left;
+	border: 1px solid black;
+	padding: 8px;
+}
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+tr:nth-child(odd){
+	background-color:white;
+}
+#para{
+	color:purple;
+	text-align:center;
+	font-size:35px;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <title> HTML CSS JAVASCRIPT</title>
+	 
+	 <link rel='stylesheet' type='text/css' href='basic.css'>
+	 <script type = "text/javascript">
+	     
+		 function addparatext()
+		 {
+		    document.getElementById('para').innerHTML = "Thanks for Clicking the button!!";
+		 }
+		 
+	  </script>
+	  <script type="text/javascript">
+	     function display()
+		 {
+		    var tinput= document.getElementById("name").value;
+			if(tinput.length == 0)
+			{
+			   document.getElementById("para").innerHTML = "Hey! You didn't enter any name";
+			}
+			else
+			{
+			   document.getElementById("para").innerHTML = tinput;
+			}
+		 }
+	  </script>
+	  <script>
+	      function mathalert()
+		  {
+		     var usernum = document.getElementById("num").value;
+			 alert("The output of given number is " +usernum*5);
+		  }
+	  </script>
+	  <script>
+	      function myPro()
+		  {
+		     var person = prompt("Please Enter Name of the Person", "Sree");
+			 if(person!= "")
+			 {
+			   document.getElementById('test2').innerHTML = "Hey " +person+ "! Hope you are fine..";
+			 }
+			 else
+			 {
+			   alert("Hey! No input..");
+			 }
+		  }
+	   </script>
+	   <script>
+	       function cf1()
+		   {  
+		      var name= document.getElementById('field1').value;
+			  if(name.length<5)
+			  {
+			     document.getElementById('msg1').innerHTML = "Text is too short!!";
+			  }
+			  else
+			  {
+			     document.getElementById('msg1').innerHTML = "Yeah, Thats fine!!";
+			  }
+		   }
+	   </script>
+	   <script>
+	       function cf2()
+           {
+		      var name= document.getElementById('field2').value;
+			  if(name != "")
+              {
+			     document.getElementById('msg2').innerHTML = "Input Accepted!!";			  
+			  }
+			  else
+			  {
+			     document.getElementById('msg2').innerHTML = "Input not entered!";
+			  
+			  }
+		   }
+		   
+		   function checkfield1()
+		   {
+		       var name=document.getElementById('field1').value;
+			   if(name !="")
+			       document.getElementById('msg1').innerHTML="Input Accepted!!";
+			   else
+			       document.getElementById('msg1').innerHTML='Input not entered!';
+			}
+			
+		   function checkfield3()
+		   {
+		       var field=document.getElementById('field3').value;
+			   var reg=/^[A-Za-z]{3}$/;
+			   if(reg.test(field))
+			       document.getElementById('msg3').innerHTML="Input Accepted!!";
+			   else
+			       document.getElementById('msg3').innerHTML='Three Letter Country Code';
+			}
+
+		   function checkfield2()
+		   {
+		       var name=document.getElementById('field2').value;
+			   if(name !="")
+			       document.getElementById('msg2').innerHTML="Input Accepted!!";
+			   else
+			       document.getElementById('msg2').innerHTML='Input not entered!';
+			}
+			
+	   </script>
+       <script>
+           function Dmath()
+           {
+              var x=10;
+              var y=20;
+              var z=5;
+              var answer=x*y/z;
+              document.getElementById("output").innerHTML = "The result is = " +answer ;
+           }
+      </script>
+	  <style type='text/css'>
+	      p.medium{color:blue;font-size:100%;}
+		  p.regular{color:green;font-size:200%;}
+     </style>
+	 <style>
+	     div {height: 50px; width: 50%;}
+	 </style>
+	 <style>
+	     p.ex{
+		     font-size:30px;
+		     height:70px;
+			 width:90%;
+			 color:navy;
+			 }
+	 </style>
+	   
+	</head>
+
+   <body onload = "alert('This page has loaded successfully!');">
+      <h1 style = "color : blue;"> <em> This is Main Heading! </em> </h1>
+	  <h2> Sreelekhya Naidu. </h2>
+	  <h3 style = " color : orange;"> Honey. </h3>
+	  <h4 style =" color : blue;"> This is Main Heading. </h4>
+	  <h5 style = "color : orange;"> This is Main Heading. </h5>
+      <h6 style = " color : cyan;"> This is Main Heading. </h6>
+	  <p> This is My first Paragraph. </p>
+	  <a href = "https://www.google.com"> Go to Google </a>
+	  <p style = "color : purple; font-size : 200%"> <strong>HTML</strong> is  a fun language! Its <em>easy to learn</em> and also <i>very helpful</i> in <b>Web Development</b>. </p>
+	  <img style='float:right;' src="http://www.intro-webdesign.com/images/newlogo.png" alt= "Nature's Beauty is just Amazing!!" height = 30% width = 40%> <span><h3 style = " color : red;"> <em> Nature's Beauty is just Amazing!! </em></h3></span><br>
+	  <p style='font-size:200%; color:green;'> Practising HTML is really fun!!<em> So far </em> its helpful for us to describe how to control our page layout...</p>
+	  <a href = "https://www.tinyurl.com"> Qwiklabs &nbsp <img src="C:\Users\hello\Desktop\html examples\mypics\image12.jpg" height = 20%  width = 30%> </a> <span><h3 style = " color : brown;"><em> Blue is always a Beauty!! </em></h3></span><br>
+      <table border="1" style="border:solid;">
+	  <tr>
+	      <th><b> DAY </b></th>  <th><b> WORK </b></th> <th><b> TIME </b></th>
+	  </tr>
+	  <tr>
+	      <td> Monday </td> <td> Running </td> <td> 20 minutes </td>
+	  </tr>
+	  <tr>
+	      <td> Tuesday </td> <td> Abs Exercise </td> <td> 15 minutes </td>
+	  </tr>
+	  <tr>
+	      <td> Wednesday </td> <td> Planks </td> <td> 30 seconds </td>
+	  </tr>
+	  <tr>
+	  	  <td> Thursday </td> <td> Boats </td> <td> 30 seconds </td>
+
+	  </tr>
+	  <tr>
+	  	  <td> Friday </td> <td> Back wait </td> <td> 50 seconds </td>
+
+	  </tr>
+	  <tr>
+	  	  <td> Saturday </td> <td> Butterfly Exercise </td> <td> 3 minutes </td>
+
+	  </tr>
+	  <tr>
+	  	   <td> Sunday </td> <td> Stomach In-Out </td> <td> 5 minutes </td>
+
+	  </tr>
+	  </table>
+	  <br> <br>
+	  <form action= "/action_page.php"
+	  <label for = "Food" > Choose a Food Item :  </label>
+	  <select name="Food">
+	      <option = "Pizza"> Pizza </option>
+	      <option = "Burger"> Burger </option>
+	      <option = "Hotdog"> Hotdog </option>
+	      <option = "Pancakes"> Pancakes </option>
+	      <option = "Panipuri"> Panipuri </option>
+	      <option = "Kachori"> Kachori </option>
+	      <option = "French Fries"> French Fries </option>		  
+	      <option = "Katlet"> Katlet </option>
+	      <option = "Pavbaji"> pavbaji </option>
+	      <option = "Sev Puri"> Sev Puri </option>
+	      <option = "Vadapav"> Vadapav </option>
+	  </select>
+      <br> <br>
+	  <input type= "Submit" value=" Submit">
+	  </form>
+	  <p> Clicking on the Submit button leads to submitting your order is sent to the page server called 'action_page.php' .</p>
+	  
+	  <h1 style = "color: gold;"> Clicking Button </h1>
+	     <button onclick = "addparatext();">Button</button>
+		 <p id = "para" style="color: orange;"></p>
+		 <input id="name" type="text"/>
+		 <button onclick ="display();"> Enter here</button> <br> <br>
+	  <h2> This is Alert </h2>
+		 <button onclick ="alert('This page runs well!');">Alert</button>
+		 <input id="num" type="number" />
+		 <button onclick = "mathalert()">Mul By 5 </button>
+		 <p id ="test"></p>
+	 <h2> This is Prompt </h2>
+		 <button onclick="myPro();">MyPrompt</button><br> <br>
+		 <p id ="test2"></p>
+		 <input id = "field1" type="text" onblur="cf1();"/> <span id = "msg1"></span>
+		 <input id = "field2" type="text" onblur="cf2();"/> <span id ="msg2"></span>
+		 <input id = "field3" type="text"/> <span id ="msg3"></span><br> <br>
+     <h1> Testing JavaScript</h1>
+         <button onclick="Dmath();">Do Math</button>
+         <p id ="output" style="color:green;font-size:200%"></p>
+	 <h1> Testing CSS </h1>
+	     <p class='medium'>This is a medium class. </p>
+		 <p class='regular'> This is a regular class. </p>
+		 <p class='testclass'>This is a TestClass. </p>
+		 <div style='background-color:yellow'></div>
+		 <div style='background-color:rgb(200,100,200)'></div>
+		 <div style='background-color:rgb(0,0,0)'></div>
+		 <p class='ex'> This is a Statement. I am Sreelekhya Naidu. I love to watch Webseries in my free time. I love to watch Korean dramas. Because they are so cute and make me feel like having butterflies in stomach!. My most favourite sho in all the webseries I saw is <em>The Vampire Dairies</em> and <em>The Originals</em>. My favourite Korean Dramas are <em>Melting Me Softly</em> and <em>Healer</em>. in Korean my favourite Actor is <em> JI CHANG WOOK! </em> </p>
+         <br>
+		 <br>
+		 <br>
+	 <form>
+	     First Name: <br>
+		 <input type='text' name='first' required> <br>
+		 Laast Name: <br>
+		 <input type='text' name='last' value='Naidu'> <br>
+		 Password: <br>
+		 <input type='password' name='pass'> <br>
+		 Check Any One : <br>
+		 <input type='radio' name='food' value='Pizza' checked> Pizza <br>
+		 <input type='radio' name='food' value='Burger'> Burger <br>
+		 <input type='radio' name='food' value='Hotdog'> Hotdog <br>
+		 <input type='radio' name='food' value='Pancakes'> Pancakes <br>
+		 Check the Courses: <br>
+		 <input type='checkbox' name='sub' value='HTML'> HTML <br>
+		 <input type='checkbox' name='sub' value='Java Script'> Java Script <br>
+		 <input type='checkbox' name='sub' value='CSS'> CSS <br>
+		 Enter Birthday: <br>
+		 <input type='date' name='birthday'><br>
+		 Select Color:
+		 <input type='color' name='favcolor'><br>
+         Quantity Rate(between 1 and 5):
+		 <input type='number' name='quantity' min='1' max='5'><br>
+
+		 <input type='submit' value='submit'><br>
+	 </form>
+	 <h2> JAVA Event Onblur Tests.. </h2>
+	 <form>
+	     Field 1<input id='field1' type='text' onblur='checkfield1();'/> <span id='msg1'><br><br>
+	     Field 2<input id='field2' type='text' onblur='checkfield2();'/> <span id='msg2'><br><br>
+	     Country Code JS: <input id='field3' type='text' onblur='checkfield3();'/> <span id='msg3'><br><br>
+		 Country Code HTML5: <input type='text' name='country_code' pattern="[A-Za-z}{3}" title='Three Letter Country Code' required><br><br>
+		 <input type='submit'><br><br>
+	 </form>
+
+   </body>
+  
+ </html>

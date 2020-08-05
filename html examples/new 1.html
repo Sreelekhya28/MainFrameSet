@@ -1,0 +1,47 @@
+<!DOCTYPEhtml>
+<html lang="en">
+    <head>
+        <title> Week3 Assignment</title>
+        <script>
+            function Dmath()
+            {
+                var x=10;
+                var y=20;
+                var z=10;
+                var answer=x*y/z;
+                document.getElementById("output").innerHTML = "The result is = " +answer ;
+            }
+        </script>
+		<script>
+		    function mypro()
+			{
+			    var name = prompt("Please enter the name of person","Klaus");
+			    if(name!="")
+			    {
+			        document.getElementById("test").innerHTML="Hey "+name+"! Hope you are fine..";
+			    }
+			    else
+			    {
+			        alert("No input!");
+				}
+			}
+		</script>
+		<script>
+		    function anyfunc()
+			{
+			    alert("Nice to Meet You!");
+			}
+		</script>
+			
+    </head>
+    <body onload = "anyfunc();">
+	    <h1 style="color:Blue;"><em> Creating an Alert </em></h1>
+		    <button onclick= "anyfunc();">Alert</button>
+		<h1 style="color:orange;"><em> This is a Prompt </em></h1>
+            <button onclick = "mypro();">My Prompt</button>
+			<p id="test"></p>
+        <h1 style="color:purple;"><em> Testing JavaScript </em></h1>
+            <button onclick="Dmath();">Do Math</button>
+            <p id ="output" style="color:green;font-size:200%"></p>
+    </body>
+</html>

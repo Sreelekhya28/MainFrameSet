@@ -1,0 +1,60 @@
+<html>
+    <head>
+	    <title>My Page 1</title>
+	</head>
+	<body background='https://cdn.wallpapersafari.com/69/17/vyNBCh.jpg'>
+	    <h3 style='color:red' align='center'>REGISTRATION FORM</h3>
+		<form method='POST' align='center'>
+		<table align='center' cellpadding='15%' >
+		    <tr>
+			    <td style='color:green'>FIRST NAME:</td>
+			    <td><input type='text' name='fname'></td>
+			</tr>
+            <tr>
+			    <td style='color:green'>LAST NAME:</td>
+			    <td><input type='text' name='lname'></td>
+			</tr>
+			<tr>
+			    <td style='color:green'>PASSWORD:</td>
+			    <td><input type='password' name='pswd'></td>
+			</tr>
+			<tr>
+			    <td style='color:green'>DATE OF BIRTH:</td>
+			    <td><input type='date' name='dob'></td>
+			</tr>
+			<tr>
+			    <td style='color:green'>GENDER:</td>
+			    <td><input type='radio' name='gender' value='Male'>MALE<br>
+			        <input type='radio' name='gender' value='Female'>FEMALE<br>
+			        <input type='radio' name='gender' value='Other'>OTHER</td>
+			</tr>
+			<tr>
+			    <td style='color:green'>KNOWN LANGUAGES:</td>
+			    <td><input type='checkbox' name='lang' value='English'>English<br>
+			        <input type='checkbox' name='lang' value='Telugu'>Telugu<br>
+			        <input type='checkbox' name='lang' value='Hindi'>Hindi<br>
+			        <input type='checkbox' name='lang' value='Kannada'>Kannada<br>
+			    <input type='checkbox' name='lang' value='Tamil'>Tamil</td>
+			</tr>
+			<tr>
+			    <td><label for='State' style='color:green'> STATE :</label></td>
+				<td><select name="State" id='State'>
+				    <option value="Telangana">Telangana</option>
+					<option value="Andhra Pradesh">Andhra Pradesh</option>
+			        <option value="Karnataka">Karnataka</option>
+			        <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">Kerala</option>
+				</select></td>
+			</tr>
+			<tr>
+			    <td><label for='Address' style='color:green'>ADDRESS : </label></td>
+				<td><textarea id='Address' name='Address' rows='5' cols='20'>Enter Your Address </textarea></td>
+			</tr>
+		</table>
+		<br>
+			    <input type='submit' value='Register'>
+				<input type='submit' value='Reset'>
+
+		</form>
+	</body>
+</html>
